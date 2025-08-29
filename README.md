@@ -1,1 +1,1 @@
-# test changed
+exercises of "Functional Programming in Lean"
