@@ -86,7 +86,6 @@ instance : HAppend (List α) (NonEmptyList α) (NonEmptyList α) where
 
 example : [1,2] ++ (⟨3, [4]⟩ : NonEmptyList Nat) = ⟨1, [2, 3, 4]⟩ := rfl
 
---q2 Binary Tree => Arrowed Graph
 inductive BinTree (α : Type) where
   | leaf : BinTree α
   | branch : BinTree α → α → BinTree α → BinTree α
